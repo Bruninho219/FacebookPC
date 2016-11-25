@@ -1,0 +1,18 @@
+﻿<Window x:Class="FacebookPC.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FacebookPC"
+        mc:Ignorable="d"
+        Title="Funções" Height="300" Width="300">
+    <Grid Background="#FF555151">
+        <Grid HorizontalAlignment="Left" Margin="0,0,0,0" Height="269" VerticalAlignment="Top" Width="292">
+            <TextBlock x:Name="bloco0" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="83" Width="267"><Run Text="Esse aplicativo é apenas mais uma f"/><Run Text="o"/><Run Text="rm"/><Run Text="a"/><Run Text=" de acesso ao Facebook."/><LineBreak/><Run/><LineBreak/><Run/><LineBreak/><Run Text="Criador: Bruno Rosa da Silva"/></TextBlock>
+            <Button x:Name="info" Content="i" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Width="36" Height="37" FontFamily="Supercell-Magic" FontWeight="Bold" FontSize="16" Click="info_Click"/>
+            <TextBlock x:Name="bloco4" HorizontalAlignment="Left" Margin="51,130,0,0" TextWrapping="Wrap" Text="Como funciona..." VerticalAlignment="Top" Height="37" Width="188"/>
+        </Grid>
+
+
+    </Grid>
+</Window>

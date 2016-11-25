@@ -1,0 +1,15 @@
+﻿<Window x:Class="TesteWeb.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TesteWeb"
+        mc:Ignorable="d"
+        Title="" Height="700" Width="350">
+    <Grid Background="Black">
+        <WebBrowser Name="Tela" Margin="0,0,0,30" Source="{x:Null}"/>
+        <Button x:Name="Tela2" Content="🛃" HorizontalAlignment="Right" Margin="294,0,0,0" VerticalAlignment="Bottom" Width="38" Height="25" Click="Tela2_Click"/>
+        <Button x:Name="Moblie" Content="📱💻" HorizontalAlignment="Right" Margin="0,0,38,0"  VerticalAlignment="Bottom" FontFamily="Supercell-Magic" Click="Alterna"  Width="38" Height="25"/>
+        <Button x:Name="Messenger" Content="📺" HorizontalAlignment="Right" Margin="0,0,87,0" VerticalAlignment="Bottom" Width="38" Height="25" FontFamily="Supercell-Magic" Click="Messenger_Click"/>
+    </Grid>
+</Window>

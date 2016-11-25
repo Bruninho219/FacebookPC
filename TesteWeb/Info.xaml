@@ -1,0 +1,25 @@
+﻿<Window x:Class="FacebookPC.Info"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FacebookPC"
+        mc:Ignorable="d"
+        Title="Info" Height="420" Width="500">
+    <Grid Background="Gray">
+        <TextBlock x:Name="bloco1" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="Supercell-Magic" FontSize="16">
+            <Run Text="Nosso aplicativo usa os dados do navegador Internet Explorer, mas estamos vendo e estudando uma maneira para ele pegar os do seu navegador padrão."/>
+            <LineBreak/>
+            <Run Text="Não se preocupe, não vamos hackear a sua conta do Facebook..."/>
+            <LineBreak/>
+            <LineBreak/>
+            <Run Text="Mas, agradecemos a sua colaboração, e não esqueça de limpar os dados do seu navegador Internet Explorer, mas... Alguém mexe no IE? Nada contra..."/>
+            <LineBreak/>
+            <Run Text="shaushsuahsua :P"/>
+            <LineBreak/>
+            <LineBreak/>
+            <Run Text="Mais uma vez, muito obrigado pela confança..."/>
+        </TextBlock>
+        <TextBlock x:Name="BRS" HorizontalAlignment="Right" TextWrapping="Wrap" Text="BRS" VerticalAlignment="Bottom" Height="30" Width="76" FontFamily="Supercell-Magic" FontSize="21.333"/>
+    </Grid>
+</Window>
